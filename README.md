@@ -5,10 +5,9 @@
 ### Author: Mariko Alvarado
 
 ### Links and Resources
+- Simon, Stacy, Nathan, Tina
 
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [front-end application](https://mariko-basic-apiserver.herokuapp.com/) (when applicable)
 
 ### Setup
 

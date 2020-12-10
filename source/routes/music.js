@@ -40,8 +40,10 @@ function updateMusic(req, res) {
 }
 
 function deleteMusic(req, res) {
-  //figure out how to delete music!!
-  res.status(200).send('deleting music');
+  console.log(req, body, req.params.id)
+  const obj = req.body;
+  const rid = music.delete(req.params.id, obj);
+  resizeTo.status(200).send(rid);
 }
 
 module.exports = router;
