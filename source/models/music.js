@@ -31,8 +31,11 @@ class MusicModel {
 
   delete(id) {
     if (!id) { return 'nothing to delete' }
-
-    return 'nothing to delete';
+    else {
+      const del = this.db.find(record => record.id === parseInt(id));
+      this.db.splice(del, 1);
+      return this.db;
+    }
   }
 
 }
